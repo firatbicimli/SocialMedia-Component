@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Fira+Sans+Condensed:wght@500;600;900&family=Mulish:wght@400;700&family=Nunito:wght@300&family=Poppins:wght@400;500;700&family=Tapestry&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background: #FFC295;
+    padding: 50px;
+}
+
+.component {
+    background: #fff;
+    max-width: 500px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.component h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.component time {
+    font-size: 16px;
+    color: #1A1B38;
+    margin-bottom: 45px;
+    display: block;
+}
+
+.component .tags {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    margin: 15px -5px -5px;
+}
+
+.component .tags a {
+    height: 40px;
+    margin: 5px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #1A1B38;
+    border: 1px solid #1A1B38;
+    transition: 300ms background-color;
+}
+
+.component .tags a:hover {
+    background-color: #FFC295;
+}
+
+.component .authors {
+    padding-top: 20px;
+    color: #1A1B38;
+}
+
+.component .authors li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.component .authors li:last-child {
+    margin-bottom: 30px;
+}
+
+.component .authors li img {
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.component .authors li .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.component .authors li .location {
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.component .authors li .follow-btn {
+    margin-left: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background: #FFC295;
+    padding: 0 15px;
+    border: 1px solid #1A1B38;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1A1B38;
+}
+
+.component .projects-actions {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(26,27,56, .14);
+    height: 89px;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.component .projects-actions li {
+    display: flex;
+    align-items: center;
+}
+
+.component .projects-actions li i {
+    margin-right: 10px;
+}
+
+.component  .like-btn {
+    height: 54px;
+    display: inline-flex;
+    align-items: center;
+    background: #FFC295;
+    padding: 0 25px;
+    border: 1px solid #1A1B38;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1A1B38;
+}
+
